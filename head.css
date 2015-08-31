@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+	body{
+		margin:0;
+		font-family:"Futura Md Bt";
+		font-size:15px;
+		background-color:darkgray;
+		background-size:100%;
+		border-style:none;
+	}
+	#page{
+		background: white;
+		margin:0 auto;
+		width:1150px;
+		height:500px;
+		border-radius:0px;
+	}
+	#halamanbawah{
+		height:200px;
+		margin-top:50px;
+	}
+	.horizon-menubawah{
+		list-style-type: none;
+		margin: 0;
+		margin-top:50px;
+		padding: 100px;
+		border-radius: 0;
+	
+		box-shadow:	;
+		background-color: white;
+	}
+	.demo-container{
+		margin:10px;
+	}
+	.horizon-menu{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		padding: 10px;
+		border-radius: 5px;
+		box-shadow:	;
+		background-color: gainsboro;
+	}
+	.horizon-menu a{
+		text-decoration:none;
+		color:#111;
+		font-weight:bold
+	}
+	.horizon-menu li{
+		display:inline;
+		margin:5px 0
+	}
+	.horizon-menu li:before{
+		content:' | ';
+		color:rgba(0,0,0,.1)
+	}
+	.horizon-menu li:first-child:before{
+		content:' '
+	}
+	.horizon-menu li a{
+		margin-right:5px;
+		margin-left:5px;
+		padding:10px;
+		border-radius:5px;
+		-webkit-transition:background-color 500ms ease-in-out;
+		-moz-transition:background-color 500ms ease-in-out;
+	}
+	.horizon-menu li a:hover{
+		background-color: gainsboro;
+	}
+	#isi{
+		font-family: "Futura";
+		border-radius: 0px;
+		border: transparant;
+		margin-top: 0px;
+		margin-right: 0px;
+		color: #000000;
+	}
+	.marginkanankiri{
+		margin-left:200px;
+		margin-right:200px;
+	}
