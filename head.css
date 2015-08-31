@@ -16,7 +16,7 @@
 		border-radius:0px;
 	}
 	#halamanbawah{
-		height:200px;
+		height:100px;
 		margin-top:50px;
 	}
 	.horizon-menubawah{
@@ -43,7 +43,7 @@
 	}
 	.horizon-menu a{
 		text-decoration:none;
-		color:#111;
+		color:white;
 		font-weight:bold
 	}
 	.horizon-menu li{
@@ -62,9 +62,6 @@
 		margin-left:5px;
 		padding:10px;
 		border-radius:5px;
-		-webkit-transition:background-color 500ms ease-in-out;
-		-moz-transition:background-color 500ms ease-in-out;
-	}
 	.horizon-menu li a:hover{
 		background-color: gainsboro;
 	}
