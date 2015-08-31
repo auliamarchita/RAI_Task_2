@@ -64,3 +64,12 @@
 		margin-left:200px;
 		margin-right:200px;
 	}
+	.marginkanankiri{
+		margin-left:200px;
+		margin-right:200px;
+	}
+    	*, *:after, *:before {
+  		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+  		box-sizing: border-box;
+	}
