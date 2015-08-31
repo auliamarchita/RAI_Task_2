@@ -59,15 +59,12 @@
 		margin-left:5px;
 		padding:10px;
 		border-radius:5px;
+	}
 	.horizon-menu li a:hover{
 		background-color: gainsboro;
 	}
 	#isi{
 		font-family: "Futura";
-		border-radius: 0px;
-		border: transparant;
-		margin-top: 0px;
-		margin-right: 0px;
 		color: #000000;
 	}
 	.marginkanankiri{
